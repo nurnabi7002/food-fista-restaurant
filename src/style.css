@@ -1,0 +1,87 @@
+* {
+    font-family: 'work-sans', sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'work-sans';
+    src: url('/assets/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url("/images/hero-bg.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero span {
+    text-shadow: 0px 0px 1px white;
+}
+
+/* Food ShowCase */
+.card-1-iamge {
+    background-image: url("/images/pizza.jpg");
+    background-size: contain;
+}
+
+.cardiamge:hover {
+    background-size: 150%;
+    background-position: center center;
+    transition: 0.7s;
+}
+
+
+.card-2-iamge {
+    background-image: url("/images/burger.png");
+    background-size: cover;
+}
+
+.card-3-iamge {
+    background-image: url("/images/chicken-shawarma.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-4-iamge {
+    background-image: url("/images/chow\ mein.jpg");
+    background-size: cover;
+
+}
+
+.card-5-iamge {
+    background-image: url("/images/lacchi.jpg");
+    background-size: contain;
+}
+
+.card-6-iamge {
+    background-image: url("/images/biriyani.png");
+    background-size: contain;
+}
+
+
+/* Footer */
+footer {
+    background-image: url("/images/foods.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.content-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+hr {
+    color: black;
+    height: 5px;
+}
